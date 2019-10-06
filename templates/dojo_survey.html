@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <h1>Hello Dojo!</h1>
+    <form action="/result" method="post">
+    <div>
+    Name: <input type="text" name="name">
+    </div> 
+    <div>
+    Dojo Location: <select name="locations">
+                    <option value="Seattle">Seattle</option>
+                    <option value="Sanjose">San Jose</option>
+                    <option value="Boise">Boise</option>
+                    </select>
+    </div>
+    <div>
+    Favorite Language: <select name="lang">
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="NET">.NET</option>
+                    </select>
+    </div>
+    <div>
+            Comment: <input type="text" name="textbox" style="height:50px">
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    
+        
+
+    </form>
+</body>
+</html>
